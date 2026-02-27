@@ -44,8 +44,8 @@ void setup() {
   pinMode(M3_IN2, OUTPUT);
 
   Serial.begin(115200);
-  ESP_BT.begin("ESP32_OMNI_BOT"); // Bluetooth device name
-  Serial.println("Bluetooth Omni Bot Ready. Connect & send commands.");
+  ESP_BT.begin("RobixOmniwheelBot"); // Bluetooth device name
+  Serial.println("RobixOmniwheelBot Ready. Connect & send commands.");
 }
 
 // --- Omni kinematics ---
